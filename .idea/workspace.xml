@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8bdb43a-eaa3-41bc-a4f7-1152116fc442" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gatos_rails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gatos_rails.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578264731351</updated>
-      <workItem from="1578264733188" duration="1393000" />
+      <workItem from="1578264733188" duration="1812000" />
     </task>
     <servers />
   </component>
@@ -155,9 +157,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1874" height="255" key="GridCell.Tab.0.bottom" timestamp="1578266514689">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="255" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578266514689" />
+    <state width="1874" height="255" key="GridCell.Tab.0.center" timestamp="1578266514688">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="255" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578266514688" />
+    <state width="1874" height="255" key="GridCell.Tab.0.left" timestamp="1578266514688">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="255" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578266514688" />
+    <state width="1874" height="255" key="GridCell.Tab.0.right" timestamp="1578266514688">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="255" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578266514688" />
     <state x="449" y="187" key="SettingsEditor" timestamp="1578264927298">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="449" y="187" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578264927298" />
+    <state x="624" y="253" key="run.anything.popup" timestamp="1578266504816">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="253" key="run.anything.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578266504816" />
   </component>
 </project>
