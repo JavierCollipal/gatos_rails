@@ -15,7 +15,7 @@ class CatsController < ApplicationController
   def create
 
     @cat = Cat.new(cat_params)
-
+    puts @cat
     if @cat.save
       render json: @cat, status: :created
     else
