@@ -1,4 +1,4 @@
 class Cat < ApplicationRecord
-  validates :name, presence: true, length: { in: 5..200 }, uniqueness: true
-  validates :age, presence: true, numericality: { only_integer: true, less_than_or_equal_to: 100 }
+  validates :name, presence: true, length: { minimum: 4, maximum: 200}, uniqueness: true
+  validates :page, presence: true, length: { in: 0...20}
 end
