@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8bdb43a-eaa3-41bc-a4f7-1152116fc442" name="Default Changelist" comment="">
-<<<<<<< Updated upstream
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gatos_rails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gatos_rails.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/cats_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/cat.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20200105232514_create_cats.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20200105232514_create_cats.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20200106010408_create_users.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/cats_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/cats_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/cats.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/cats.yml" afterDir="false" />
->>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/cats_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cats_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/cors.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/cors.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/rails_example" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Rails.Development: gatos_rails">
     <configuration name="Development: gatos_rails" type="RailsRunConfigurationType" factoryName="Rails">
@@ -166,19 +157,8 @@
       <workItem from="1578342962980" duration="878000" />
       <workItem from="1578442435885" duration="4127000" />
       <workItem from="1578457007278" duration="409000" />
-<<<<<<< Updated upstream
-      <workItem from="1578499824094" duration="2238000" />
-=======
       <workItem from="1578499824094" duration="4887000" />
-      <workItem from="1578584248401" duration="4868000" />
-      <workItem from="1578617460886" duration="548000" />
-      <workItem from="1578676946473" duration="3206000" />
-      <workItem from="1578764946604" duration="4053000" />
-      <workItem from="1578842066200" duration="3001000" />
-      <workItem from="1578887677295" duration="2758000" />
-      <workItem from="1578891804209" duration="2171000" />
-      <workItem from="1578931012494" duration="1066000" />
->>>>>>> Stashed changes
+      <workItem from="1578584248401" duration="4680000" />
     </task>
     <servers />
   </component>
@@ -186,50 +166,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-<<<<<<< Updated upstream
-    <state x="619" y="344" width="671" height="416" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578266871926">
-=======
     <state x="555" y="214" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578585972730">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="555" y="214" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578585972730" />
-    <state x="619" y="344" width="671" height="416" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578893761947">
->>>>>>> Stashed changes
+    <state x="619" y="344" width="671" height="416" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578266871926">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="619" y="344" width="671" height="416" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578893761947" />
+    <state x="619" y="344" width="671" height="416" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578266871926" />
     <state x="743" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1578267071391">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578267071391" />
-    <state width="1874" height="255" key="GridCell.Tab.0.bottom" timestamp="1578266514689">
+    <state width="1874" height="255" key="GridCell.Tab.0.bottom" timestamp="1578616546099">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="255" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578266514689" />
-    <state width="1874" height="255" key="GridCell.Tab.0.center" timestamp="1578266514688">
+    <state width="1874" height="255" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578616546099" />
+    <state width="1874" height="255" key="GridCell.Tab.0.center" timestamp="1578616546099">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="255" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578266514688" />
-    <state width="1874" height="255" key="GridCell.Tab.0.left" timestamp="1578266514688">
+    <state width="1874" height="255" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578616546099" />
+    <state width="1874" height="255" key="GridCell.Tab.0.left" timestamp="1578616546098">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="255" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578266514688" />
-    <state width="1874" height="255" key="GridCell.Tab.0.right" timestamp="1578266514688">
+    <state width="1874" height="255" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578616546098" />
+    <state width="1874" height="255" key="GridCell.Tab.0.right" timestamp="1578616546099">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="255" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578266514688" />
-    <state x="449" y="187" key="SettingsEditor" timestamp="1578264927298">
+    <state width="1874" height="255" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578616546099" />
+    <state x="449" y="187" key="SettingsEditor" timestamp="1578509142984">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-<<<<<<< Updated upstream
-    <state x="449" y="187" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578264927298" />
-    <state x="624" y="253" key="run.anything.popup" timestamp="1578266504816">
-=======
     <state x="449" y="187" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578509142984" />
-    <state x="624" y="253" key="run.anything.popup" timestamp="1578931980051">
->>>>>>> Stashed changes
+    <state x="624" y="253" key="run.anything.popup" timestamp="1578266504816">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="624" y="253" key="run.anything.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578931980051" />
+    <state x="624" y="253" key="run.anything.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578266504816" />
   </component>
 </project>
