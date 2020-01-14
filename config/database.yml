@@ -1,4 +1,4 @@
-default: &default
+production:
   adapter: postgresql
   encoding: utf8
   pool: 5
@@ -15,12 +15,3 @@ development: &default
   database: gatos
   username: postgres
   password: p31FelJ15gHdhymF
-
-  production: &default
-   adapter: postgresql
-   encoding: utf8
-   pool: 5
-   host: /cloudsql/portafoliobackend:us-central1:gatos
-   database: gatos
-   username: postgres
-   password: p31FelJ15gHdhymF

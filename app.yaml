@@ -1,3 +1,9 @@
 entrypoint: bundle exec rackup --port $PORT
 env: flex
 runtime: ruby
+
+env_variables:
+ SECRET_KEY_BASE: e7ff27fb2ad4ee301c71af758880a13ac29d2f44a0e9b824de487760237affdcb4f3a94aaa134aec2cce782df1970a7d9499d1a86000be3407dd9729fa09e591
+
+beta_settings:
+ cloud_sql_instances: portafoliobackend:us-central1:gatos
