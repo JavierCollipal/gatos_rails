@@ -1,3 +1,13 @@
+default: &default
+  adapter: postgresql
+  host: localhost
+  port: 5432
+  encoding: utf8
+  pool: 5
+  database: example
+  username: javier
+  password: admin123
+
 production:
   adapter: postgresql
   encoding: utf8
@@ -9,9 +19,10 @@ production:
 
 development: &default
   adapter: postgresql
+  host: localhost
+  port: 5432
   encoding: utf8
   pool: 5
-  host: /cloudsql/portafoliobackend:us-central1:gatos
-  database: gatos
-  username: postgres
-  password: p31FelJ15gHdhymF
+  database: example
+  username: javier
+  password: admin123

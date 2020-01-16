@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
-  resources :users
   resources :cats
+  resources :breeds
+  resources :colors
+  resources :users
 
 end

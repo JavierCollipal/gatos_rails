@@ -1,11 +1,9 @@
 class CatsController < ApplicationController
   before_action :set_cat, only: [:show, :update, :destroy]
-
   # GET /cats
   def index
-    @cats = Cat.all
-
-    render json: @cats
+    @cats = Cat.all.includes(:color,:breed)
+    render json: @cats, :include => {:color => { except: EXCEPT_PARAMS},:breed => { except: EXCEPT_PARAMS}}, except: EXCEPT_PARAMS
   end
 
   # GET /cats/1
@@ -16,7 +14,7 @@ class CatsController < ApplicationController
   # POST /cats
   def create
     @cat = Cat.new(cat_params)
-    puts @cat
+
     if @cat.save
       render json: @cat, status: :created, location: @cat
     else
@@ -39,6 +37,7 @@ class CatsController < ApplicationController
   end
 
   private
+  EXCEPT_PARAMS = [:created_at,:updated_at]
     # Use callbacks to share common setup or constraints between actions.
     def set_cat
       @cat = Cat.find(params[:id])
