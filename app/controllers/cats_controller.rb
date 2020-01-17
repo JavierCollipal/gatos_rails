@@ -3,12 +3,12 @@ class CatsController < ApplicationController
   # GET /cats
   def index
     @cats = Cat.all.includes(:color,:breed)
-    render json: @cats, :include => {:color => { except: EXCEPT_PARAMS},:breed => { except: EXCEPT_PARAMS}}, except: EXCEPT_PARAMS
+    render json: @cats, :include => {:color => { except: INCLUDE_EXCEPT_PARAMS},:breed => { except: INCLUDE_EXCEPT_PARAMS}}, except: EXCEPT_PARAMS
   end
 
   # GET /cats/1
   def show
-    render json: @cat
+    render json: @cat, :include => {:color => { except: INCLUDE_EXCEPT_PARAMS},:breed => { except: INCLUDE_EXCEPT_PARAMS}}, except: EXCEPT_PARAMS
   end
 
   # POST /cats
@@ -37,7 +37,8 @@ class CatsController < ApplicationController
   end
 
   private
-  EXCEPT_PARAMS = [:created_at,:updated_at]
+  EXCEPT_PARAMS = [:created_at,:updated_at,:color_id,:breed_id]
+  INCLUDE_EXCEPT_PARAMS = [:created_at,:updated_at]
     # Use callbacks to share common setup or constraints between actions.
     def set_cat
       @cat = Cat.find(params[:id])
@@ -45,6 +46,6 @@ class CatsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def cat_params
-      params.require(:cat).permit(:name, :age)
+      params.require(:cat).permit(:name, :age,:color_id, :breed_id)
     end
 end

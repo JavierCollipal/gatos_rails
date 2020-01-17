@@ -5,6 +5,7 @@ class CreateCats < ActiveRecord::Migration[6.0]
       t.belongs_to :breed, foreign_key: true
       t.string :name
       t.integer :age
+      t.integer :gender
 
       t.timestamps
     end

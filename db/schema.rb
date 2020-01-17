@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 2020_01_15_200735) do
     t.bigint "breed_id"
     t.string "name"
     t.integer "age"
+    t.integer "gender"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["breed_id"], name: "index_cats_on_breed_id"

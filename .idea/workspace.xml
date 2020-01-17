@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8bdb43a-eaa3-41bc-a4f7-1152116fc442" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/cats_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cats_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/cat.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/cat.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20200105232514_create_cats.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20200115200735_create_cats.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20200115200735_create_cats.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +15,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1VznL14xwpo2kO7i1eVvLH2Lz6Q" />
   <component name="ProjectViewState">
@@ -29,7 +34,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/rails_example" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunManager" selected="Rails.Development: gatos_rails">
     <configuration name="Development: gatos_rails" type="RailsRunConfigurationType" factoryName="Rails">
@@ -172,7 +177,10 @@
       <workItem from="1579113499410" duration="5747000" />
       <workItem from="1579122740847" duration="2059000" />
       <workItem from="1579135755265" duration="2178000" />
-      <workItem from="1579185328411" duration="7318000" />
+      <workItem from="1579185328411" duration="9496000" />
+      <workItem from="1579205167490" duration="665000" />
+      <workItem from="1579208688258" duration="1293000" />
+      <workItem from="1579294407998" duration="624000" />
     </task>
     <servers />
   </component>
@@ -196,26 +204,46 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="743" y="310" width="424" height="484" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578267071391" />
-    <state width="1874" height="255" key="GridCell.Tab.0.bottom" timestamp="1578616546099">
+    <state width="1874" height="254" key="GridCell.Tab.0.bottom" timestamp="1579294638743">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="255" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578616546099" />
-    <state width="1874" height="255" key="GridCell.Tab.0.center" timestamp="1578616546099">
+    <state width="1874" height="254" key="GridCell.Tab.0.bottom/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579294638743" />
+    <state width="1874" height="254" key="GridCell.Tab.0.center" timestamp="1579294638743">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="255" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578616546099" />
-    <state width="1874" height="255" key="GridCell.Tab.0.left" timestamp="1578616546098">
+    <state width="1874" height="254" key="GridCell.Tab.0.center/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579294638743" />
+    <state width="1874" height="254" key="GridCell.Tab.0.left" timestamp="1579294638742">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="255" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578616546098" />
-    <state width="1874" height="255" key="GridCell.Tab.0.right" timestamp="1578616546099">
+    <state width="1874" height="254" key="GridCell.Tab.0.left/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579294638742" />
+    <state width="1874" height="254" key="GridCell.Tab.0.right" timestamp="1579294638743">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="255" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578616546099" />
-    <state x="449" y="187" key="SettingsEditor" timestamp="1578509142984">
+    <state width="1874" height="254" key="GridCell.Tab.0.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579294638743" />
+    <state width="1874" height="254" key="GridCell.Tab.1.bottom" timestamp="1579294628178">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="449" y="187" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1578509142984" />
+    <state width="1874" height="254" key="GridCell.Tab.1.bottom/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579294628178" />
+    <state width="1874" height="254" key="GridCell.Tab.1.center" timestamp="1579294628178">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="254" key="GridCell.Tab.1.center/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579294628178" />
+    <state width="1874" height="254" key="GridCell.Tab.1.left" timestamp="1579294628177">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="254" key="GridCell.Tab.1.left/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579294628177" />
+    <state width="1874" height="254" key="GridCell.Tab.1.right" timestamp="1579294628178">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="254" key="GridCell.Tab.1.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579294628178" />
+    <state x="449" y="187" width="1318" height="730" key="SettingsEditor" timestamp="1579294606739">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="449" y="187" width="1318" height="730" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579294606739" />
+    <state x="2680" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579196610699">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state x="2680" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.3840.1053@0.27.3840.1053" timestamp="1579196610699" />
     <state x="669" y="253" width="672" height="677" key="run.anything.popup" timestamp="1579186599545">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -225,5 +253,8 @@
       <screen x="0" y="27" width="3840" height="1053" />
     </state>
     <state x="2576" y="237" width="672" height="678" key="search.everywhere.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1579195635646" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gatos_rails@Development__gatos_rails.rcov" NAME="Development: gatos_rails Coverage Results" MODIFIED="1579294620084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gatos_rails" />
   </component>
 </project>
