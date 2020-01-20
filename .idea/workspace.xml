@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8bdb43a-eaa3-41bc-a4f7-1152116fc442" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/breed.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/breed.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/cat.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/cat.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/color.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/color.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +182,7 @@
       <workItem from="1579364423573" duration="2383000" />
       <workItem from="1579449732398" duration="1589000" />
       <workItem from="1579539526904" duration="144000" />
-      <workItem from="1579545267149" duration="1603000" />
+      <workItem from="1579545267149" duration="4038000" />
     </task>
     <servers />
   </component>
