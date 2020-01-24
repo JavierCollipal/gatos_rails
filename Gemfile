@@ -45,3 +45,5 @@ gem "appengine", "~> 0.5.0"
 gem "devise", "~> 4.7"
 
 gem "devise-jwt", "~> 0.6.0"
+
+gem 'dotenv-rails', :groups => [:development, :test]
