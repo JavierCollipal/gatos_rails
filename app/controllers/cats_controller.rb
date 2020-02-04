@@ -1,5 +1,6 @@
 class CatsController < ApplicationController
   before_action :authenticate_user!, :set_cat, only: [:show, :update, :destroy]
+
   # GET /cats
   def index
     @cats = Cat.all.includes(:color,:breed)

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8bdb43a-eaa3-41bc-a4f7-1152116fc442" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ae64461a-5f1f-452f-8d7b-83bebdf2f636.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ae64461a-5f1f-452f-8d7b-83bebdf2f636.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/breeds_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/breeds_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/cats_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cats_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/colors_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/colors_controller.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +26,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="gatos_rails" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +52,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/rails_example" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager" selected="Rails.Development: gatos_rails">
     <configuration name="Development: gatos_rails" type="RailsRunConfigurationType" factoryName="Rails">
@@ -202,7 +206,8 @@
       <workItem from="1579545267149" duration="4969000" />
       <workItem from="1579614248615" duration="1233000" />
       <workItem from="1579835111157" duration="3600000" />
-      <workItem from="1579877745960" duration="12536000" />
+      <workItem from="1579877745960" duration="16122000" />
+      <workItem from="1580415295095" duration="185000" />
     </task>
     <servers />
   </component>
@@ -272,10 +277,14 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="254" key="GridCell.Tab.1.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579885391393" />
-    <state x="449" y="187" width="1318" height="730" key="SettingsEditor" timestamp="1579294606739">
+    <state x="449" y="189" width="1318" height="730" key="SettingsEditor" timestamp="1579894237549">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="449" y="187" width="1318" height="730" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579294606739" />
+    <state x="449" y="189" width="1318" height="730" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579894237549" />
+    <state x="718" y="399" width="474" height="307" key="cloudConfig.SelfSettingsDialog" timestamp="1579894185127">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="718" y="399" width="474" height="307" key="cloudConfig.SelfSettingsDialog/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579894185127" />
     <state x="2680" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579196610699">
       <screen x="0" y="27" width="3840" height="1053" />
     </state>
@@ -285,9 +294,10 @@
     </state>
     <state x="624" y="253" key="run.anything.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579888450947" />
     <state x="669" y="253" width="672" height="677" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1579186599545" />
-    <state x="2576" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1579195635646">
-      <screen x="0" y="27" width="3840" height="1053" />
+    <state x="1288" y="237" width="672" height="678" key="search.everywhere.popup" timestamp="1579894211175">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="1288" y="237" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579894211175" />
     <state x="2576" y="237" width="672" height="678" key="search.everywhere.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1579195635646" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
