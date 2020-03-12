@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8bdb43a-eaa3-41bc-a4f7-1152116fc442" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/ae64461a-5f1f-452f-8d7b-83bebdf2f636.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ae64461a-5f1f-452f-8d7b-83bebdf2f636.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gatos_rails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gatos_rails.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/breeds_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/breeds_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/cats_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cats_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/colors_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/colors_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +31,6 @@
     </option>
     <expand />
     <select />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="gatos_rails" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,7 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/rails_example" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RunManager" selected="Rails.Development: gatos_rails">
     <configuration name="Development: gatos_rails" type="RailsRunConfigurationType" factoryName="Rails">
@@ -208,6 +210,7 @@
       <workItem from="1579835111157" duration="3600000" />
       <workItem from="1579877745960" duration="16122000" />
       <workItem from="1580415295095" duration="185000" />
+      <workItem from="1583979278475" duration="2229000" />
     </task>
     <servers />
   </component>
@@ -277,10 +280,11 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="254" key="GridCell.Tab.1.right/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579885391393" />
-    <state x="449" y="189" width="1318" height="730" key="SettingsEditor" timestamp="1579894237549">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="431" y="166" width="1318" height="730" key="SettingsEditor" timestamp="1583977542379">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state x="449" y="189" width="1318" height="730" key="SettingsEditor/0.27.1920.1053/1920.0.1920.1080@0.27.1920.1053" timestamp="1579894237549" />
+    <state x="431" y="166" key="SettingsEditor/1920.0.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1583977542379" />
     <state x="718" y="399" width="474" height="307" key="cloudConfig.SelfSettingsDialog" timestamp="1579894185127">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -301,6 +305,6 @@
     <state x="2576" y="237" width="672" height="678" key="search.everywhere.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1579195635646" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/gatos_rails@Development__gatos_rails.rcov" NAME="Development: gatos_rails Coverage Results" MODIFIED="1579885387945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gatos_rails" />
+    <SUITE FILE_PATH="coverage/gatos_rails@Development__gatos_rails.rcov" NAME="Development: gatos_rails Coverage Results" MODIFIED="1579294620084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="gatos_rails" />
   </component>
 </project>
