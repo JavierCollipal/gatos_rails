@@ -1,5 +1,7 @@
 class CatsController < ApplicationController
   before_action :set_cat, only: [:show, :update, :destroy]
+  EXCEPT_PARAMS = [:created_at, :updated_at, :color_id, :breed_id]
+  INCLUDE_EXCEPT_PARAMS = [:created_at, :updated_at]
   # GET /cats
   def index
     @cats = Cat.all.includes(:color, :breed)
@@ -38,8 +40,7 @@ class CatsController < ApplicationController
 
   private
 
-  EXCEPT_PARAMS = [:created_at, :updated_at, :color_id, :breed_id]
-  INCLUDE_EXCEPT_PARAMS = [:created_at, :updated_at]
+
   # Use callbacks to share common setup or constraints between actions.
   def set_cat
     @cat = Cat.find(params[:id])
