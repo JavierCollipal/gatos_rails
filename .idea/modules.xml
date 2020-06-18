@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/gatos_rails.iml" filepath="$PROJECT_DIR$/.idea/gatos_rails.iml" />
-      <module fileurl="file://$USER_HOME$/RubymineProjects/ruby_puro/.idea/ruby_puro.iml" filepath="$USER_HOME$/RubymineProjects/ruby_puro/.idea/ruby_puro.iml" />
     </modules>
   </component>
 </project>

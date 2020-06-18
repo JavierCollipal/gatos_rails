@@ -2,10 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8bdb43a-eaa3-41bc-a4f7-1152116fc442" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/registrations_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/sessions_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/initializers/devise.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20200124030819_devise_create_users.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/registrations_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/session_controller_test.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/controllers/sessions_controller_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ae64461a-5f1f-452f-8d7b-83bebdf2f636.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ae64461a-5f1f-452f-8d7b-83bebdf2f636.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gatos_rails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gatos_rails.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/breeds_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/breeds_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/cats_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cats_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/colors_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/colors_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environment.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environment.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/cors.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/cors.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/users.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,6 +236,7 @@
       <workItem from="1579614248615" duration="1233000" />
       <workItem from="1592359611892" duration="1894000" />
       <workItem from="1592361792552" duration="239000" />
+      <workItem from="1592450299469" duration="189000" />
     </task>
     <servers />
   </component>

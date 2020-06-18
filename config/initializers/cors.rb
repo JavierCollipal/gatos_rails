@@ -3,7 +3,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
      origins 'localhost:3000'
 
      resource '*',
-       headers: :any,
+       headers: :any, expose: ["Authorization"],
        methods: [:get, :post, :put, :patch, :delete, :options, :head]
    end
 
@@ -11,7 +11,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
      origins 'https://portafoliofrontend.appspot.com'
 
      resource '*',
-              headers: :any,
+              headers: :any, expose: ["Authorization"],
               methods: [:get, :post, :put, :patch, :delete, :options, :head]
    end
 end
