@@ -1,6 +1,6 @@
 class CatsController < ApplicationController
   before_action :set_cat, only: [:show, :update, :destroy]
-  before_action :authenticate_user!, :set_cat, only: [:show, :create, :update, :destroy]
+  before_action :authenticate_user!, only: [:show, :create, :update, :destroy]
   EXCEPT_PARAMS = [:created_at, :updated_at, :color_id, :breed_id]
   INCLUDE_EXCEPT_PARAMS = [:created_at, :updated_at]
 

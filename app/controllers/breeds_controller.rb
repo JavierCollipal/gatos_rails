@@ -1,5 +1,6 @@
 class BreedsController < ApplicationController
-  before_action :authenticate_user!, :set_breed, only: [:show, :create, :update, :destroy]
+  before_action :set_breed, only: [:show, :update, :destroy]
+  before_action :authenticate_user!, only: [:show, :create, :update, :destroy]
 
   # GET /breeds
   def index
@@ -39,13 +40,14 @@ class BreedsController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_breed
-      @breed = Breed.find(params[:id])
-    end
 
-    # Only allow a trusted parameter "white list" through.
-    def breed_params
-      params.require(:breed).permit(:name)
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_breed
+    @breed = Breed.find(params[:id])
+  end
+
+  # Only allow a trusted parameter "white list" through.
+  def breed_params
+    params.require(:breed).permit(:name)
+  end
 end
