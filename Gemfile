@@ -45,4 +45,4 @@ gem "devise", "~> 4.7"
 
 gem "devise-jwt", "~> 0.6.0"
 
-gem 'dotenv-rails', :groups => [:development, :test]
+gem 'dotenv-rails', :require => 'dotenv/rails-now'

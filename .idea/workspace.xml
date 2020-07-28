@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8bdb43a-eaa3-41bc-a4f7-1152116fc442" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gatos_rails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gatos_rails.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/breeds_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/breeds_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/cats_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/cats_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/colors_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/colors_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1595903833" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="staging" />
                     <option name="lastUsedInstant" value="1595892479" />
@@ -272,10 +273,10 @@
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state x="422" y="182" key="SettingsEditor/1920.0.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1595892501194" />
-    <state x="607" y="256" width="627" height="789" key="find.popup" timestamp="1595893100557">
+    <state x="607" y="256" width="627" height="789" key="find.popup" timestamp="1595904231821">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
-    <state x="607" y="256" width="627" height="789" key="find.popup/1920.0.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1595893100557" />
+    <state x="607" y="256" width="627" height="789" key="find.popup/1920.0.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1595904231821" />
     <state x="643" y="445" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1592361859253">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
